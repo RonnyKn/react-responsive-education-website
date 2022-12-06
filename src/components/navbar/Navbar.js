@@ -1,14 +1,19 @@
 import "./Navbar.css"
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
+import { GoThreeBars } from "react-icons/go"
+import { MdOutlineClose } from "react-icons/md"
 
 const Navbar = () => {
+  const [isNavShowing, setIsNavShowing] = useState(false)
   return (
     <nav>
       <div className="container nav-container">
-        <div className="nav-logo">RONS EDU</div>
+        <div className="nav-logo">
+          <Link to="/">RONS EDU</Link>
+        </div>
         <div className="nav-navigation">
-          <ul>
+          <ul className="nav-navigation-links">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -22,6 +27,12 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
+          <button
+            className="nav-navigation-btn"
+            onClick={() => setIsNavShowing(!isNavShowing)}
+          >
+            {isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}
+          </button>
         </div>
       </div>
     </nav>

@@ -1,0 +1,23 @@
+nav {
+  width: 100vw;
+  height: 5rem;
+  background: #fff;
+  position: fixed;
+  z-index: 99;
+}
+
+.nav-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-navigation-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-navigation-btn {
+  display: none;
+}
