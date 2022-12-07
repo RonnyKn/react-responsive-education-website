@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <section className="home-category">
+      <section className="container home-category">
         <div className="home-category-left">
           <h1>Categories</h1>
           <p>
@@ -38,9 +38,7 @@ const Home = () => {
         </div>
         <div className="home-category-right">
           {categories.map((category, idx) => (
-            <section className="single-category" key={idx}>
-              <SingleCategory category={category} />
-            </section>
+            <SingleCategory category={category} key={idx} />
           ))}
         </div>
       </section>

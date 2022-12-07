@@ -34,3 +34,26 @@ header {
 }
 
 /*======================CATEGORY SECTION===================*/
+.home-category {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+/* ===CATEGORY LEFT=== */
+.home-category-left {
+  flex: 1;
+}
+
+.home-category-left p {
+  margin: 1rem 0 2.4rem;
+  text-align: justify;
+}
+
+/* ===CATEGORY RIGHT=== */
+.home-category-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}

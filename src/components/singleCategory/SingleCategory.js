@@ -1,12 +1,13 @@
 import React from "react"
+import "./SingleCategory.css"
 
 const SingleCategory = ({ category }) => {
   return (
-    <section className="single-category">
+    <div className="single-category">
       <div className="single-category-icon">{category?.icon}</div>
-      <h3>{category?.name}</h3>
+      <h5>{category?.name}</h5>
       <p>{category?.detail}</p>
-    </section>
+    </div>
   )
 }
 
