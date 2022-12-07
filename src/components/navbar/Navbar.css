@@ -1,8 +1,9 @@
 nav {
   width: 100vw;
   height: 5rem;
-  background: #fff;
+  background: var(--color-bg);
   position: fixed;
+  top: 0;
   z-index: 99;
 }
 
@@ -13,11 +14,16 @@ nav {
   align-items: center;
 }
 
-.nav-navigation-links {
+.nav-menu-links {
   display: flex;
   gap: 2rem;
 }
 
-.nav-navigation-btn {
+.nav-menu-links a:hover {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.nav-menu-btn {
   display: none;
 }

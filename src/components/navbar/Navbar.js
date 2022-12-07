@@ -12,8 +12,8 @@ const Navbar = () => {
         <div className="nav-logo">
           <Link to="/">RONS EDU</Link>
         </div>
-        <div className="nav-navigation">
-          <ul className="nav-navigation-links">
+        <div className="nav-menu">
+          <ul className="nav-menu-links">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           </ul>
           <button
-            className="nav-navigation-btn"
+            className="nav-menu-btn"
             onClick={() => setIsNavShowing(!isNavShowing)}
           >
             {isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}

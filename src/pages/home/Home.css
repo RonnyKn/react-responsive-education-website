@@ -1,0 +1,34 @@
+/* ======================HEADER SECTION=================== */
+header {
+  position: relative;
+  top: 5rem;
+  min-height: 100%;
+  background: url(../../assets/img/bg-texture.png);
+  background-color: var(--color-bg);
+}
+
+.home-container {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 5rem;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+}
+
+/* ====HEADER LEFT==== */
+.home-header-left {
+  flex: 1;
+}
+
+.home-header-left p {
+  margin: 1rem 0 2.4rem;
+  text-align: justify;
+}
+
+/* ====HEADER RIGHT==== */
+.home-header-right {
+  flex: 1;
+}
