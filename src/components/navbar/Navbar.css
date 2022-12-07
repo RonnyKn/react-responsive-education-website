@@ -1,7 +1,8 @@
 nav {
   width: 100vw;
   height: 5rem;
-  background: var(--color-bg);
+  background: url('../../assets/img/bg-texture.png');
+  background-color: var(--color-bg);
   position: fixed;
   top: 0;
   z-index: 99;
