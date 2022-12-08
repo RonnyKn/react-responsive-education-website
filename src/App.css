@@ -29,6 +29,7 @@
   --container-width-sm: 94%;
 
   --transition: all 500ms ease;
+  --boxshadow: 0 3rem 3rem rgba(0, 0, 0, .3);
 }
 
 html,

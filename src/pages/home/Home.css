@@ -57,3 +57,21 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
+
+/*======================POPULAR COURSE SECTION===================*/
+.home-popcourse {
+  min-height: 100%;
+  background: url('../../assets/img/bg-texture.png');
+  background-color: var(--color-bg);
+}
+
+.home-popular-course {
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.home-popcourse-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}

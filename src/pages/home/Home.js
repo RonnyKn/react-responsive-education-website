@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import HeaderSVG from "../../assets/img/header.svg"
 import { categories, popularCourse } from "../../assets/data/Data"
 import SingleCategory from "../../components/singleCategory/SingleCategory"
+import SingleCourse from "../../components/singleCourse/SingleCourse"
 
 const Home = () => {
   return (
@@ -42,9 +43,15 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <section className="container home-popcourse">
-        <h1>Our Popular Course</h1>
-        {}
+      <section className="home-popcourse">
+        <div className="container">
+          <h1 className="home-popular-course">Our Popular Course</h1>
+          <div className="home-popcourse-content">
+            {popularCourse.map((course, idx) => (
+              <SingleCourse course={course} key={idx} />
+            ))}
+          </div>
+        </div>
       </section>
     </>
   )
