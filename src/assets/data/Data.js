@@ -6,7 +6,9 @@ import {
   SiMaterialui,
   SiTailwindcss,
 } from "react-icons/si"
-
+import popIMG1 from "../img/course1.jpg"
+import popIMG2 from "../img/course2.jpg"
+import popIMG3 from "../img/course3.jpg"
 export const categories = [
   {
     icon: <ImHtmlFive2 color="#e54d26" />,
@@ -43,5 +45,25 @@ export const categories = [
     name: "ReactJs",
     detail:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, illo.",
+  },
+]
+export const popularCourse = [
+  {
+    popIMG: popIMG1,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
+  },
+  {
+    popIMG: popIMG2,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
+  },
+  {
+    popIMG: popIMG3,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
   },
 ]

@@ -2,7 +2,7 @@ import "./Home.css"
 import React from "react"
 import { Link } from "react-router-dom"
 import HeaderSVG from "../../assets/img/header.svg"
-import { categories } from "../../assets/data/Data"
+import { categories, popularCourse } from "../../assets/data/Data"
 import SingleCategory from "../../components/singleCategory/SingleCategory"
 
 const Home = () => {
@@ -41,6 +41,10 @@ const Home = () => {
             <SingleCategory category={category} key={idx} />
           ))}
         </div>
+      </section>
+      <section className="container home-popcourse">
+        <h1>Our Popular Course</h1>
+        {}
       </section>
     </>
   )
