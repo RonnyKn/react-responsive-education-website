@@ -5,6 +5,7 @@ header {
   min-height: 100%;
   background: url('../../assets/img/bg-texture.png');
   background-color: var(--color-bg);
+  box-shadow: var(--boxshadow);
 }
 
 .home-container {
@@ -63,6 +64,7 @@ header {
   min-height: 100%;
   background: url('../../assets/img/bg-texture.png');
   background-color: var(--color-bg);
+  box-shadow: var(--boxshadow);
 }
 
 .home-popular-course {
