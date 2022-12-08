@@ -37,21 +37,24 @@ const Home = () => {
           </p>
           <button className="btn btn-primary">Learn More</button>
         </div>
-        <div className="home-category-right">
+        <article className="home-category-right">
           {categories.map((category, idx) => (
             <SingleCategory category={category} key={idx} />
           ))}
-        </div>
+        </article>
       </section>
       <section className="home-popcourse">
         <div className="container">
           <h1 className="home-popular-course">Our Popular Course</h1>
-          <div className="home-popcourse-content">
+          <article className="home-popcourse-content">
             {popularCourse.map((course, idx) => (
               <SingleCourse course={course} key={idx} />
             ))}
-          </div>
+          </article>
         </div>
+      </section>
+      <section className="container faqs">
+        <h1>Frequently Ask Questions</h1>
       </section>
     </>
   )

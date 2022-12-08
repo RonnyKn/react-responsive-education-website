@@ -52,18 +52,18 @@ export const popularCourse = [
     popIMG: popIMG1,
     name: "Responsive Social Media Web Design",
     detail:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
   },
   {
     popIMG: popIMG2,
     name: "Responsive Smart Home Web Design",
     detail:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
   },
   {
     popIMG: popIMG3,
     name: "Responsive Admin Dashbpard UI Design",
     detail:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis et hic error temporibus culpa est ducimus iste.",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
   },
 ]

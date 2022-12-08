@@ -35,4 +35,5 @@
 .single-course p {
   font-size: .8rem;
   margin-bottom: 1rem;
+  text-align: justify;
 }
