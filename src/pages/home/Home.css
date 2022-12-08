@@ -77,3 +77,15 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
 }
+
+/*======================FAQS SECTION===================*/
+.faqs-h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}

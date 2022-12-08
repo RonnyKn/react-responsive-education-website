@@ -2,9 +2,10 @@ import "./Home.css"
 import React from "react"
 import { Link } from "react-router-dom"
 import HeaderSVG from "../../assets/img/header.svg"
-import { categories, popularCourse } from "../../assets/data/Data"
+import { categories, popularCourse, qa } from "../../assets/data/Data"
 import SingleCategory from "../../components/singleCategory/SingleCategory"
 import SingleCourse from "../../components/singleCourse/SingleCourse"
+import SingleFaqs from "../../components/singleFaqs/SingleFaqs"
 
 const Home = () => {
   return (
@@ -53,8 +54,13 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="container faqs">
-        <h1>Frequently Ask Questions</h1>
+      <section className="container">
+        <h1 className="faqs-h1">Frequently Ask Questions</h1>
+        <article className="faqs">
+          {qa.map((qna, idx) => (
+            <SingleFaqs qna={qna} key={idx} />
+          ))}
+        </article>
       </section>
     </>
   )

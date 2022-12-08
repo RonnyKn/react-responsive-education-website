@@ -1,0 +1,25 @@
+.single-faqs {
+  width: 100%;
+  height: fit-content;
+  border-color: aliceblue;
+  display: flex;
+  gap: 1rem;
+  background: var(--color-bg2);
+  align-items: flex-start;
+  padding: 2rem;
+  border-radius: .3rem;
+  cursor: default;
+}
+
+.single-faqs-content p {
+  margin: 1rem 0;
+  font-size: .8rem;
+}
+
+.single-faqs button {
+  align-self: flex-start;
+}
+
+.hide-answer {
+  display: none;
+}
