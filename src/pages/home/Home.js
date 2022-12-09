@@ -62,6 +62,21 @@ const Home = () => {
           ))}
         </article>
       </section>
+      <section className="home-testimonial">
+        <div className="container">
+          <h1>Student Testimonials</h1>
+          <article className="testimonial">
+            <div className="testimonial-img">
+              <img src="" alt="" />
+            </div>
+            <h5 className="testimonial-name"></h5>
+            <p className="testimonial-grade"></p>
+            <div className="testimonial-message">
+              <p></p>
+            </div>
+          </article>
+        </div>
+      </section>
     </>
   )
 }

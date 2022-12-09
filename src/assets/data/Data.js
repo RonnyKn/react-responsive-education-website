@@ -99,3 +99,36 @@ export const qa = [
       "If you are new to online learning, we recommend that you begin with one course. As our courses are offered frequently throughout the year, you can always come back and continue your studies with one or more topics",
   },
 ]
+
+export const testimonials = [
+  {
+    name: 'Dhany Permana',
+    grade: 'Student',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+  {
+    name: 'Ummi Nur Khasanah',
+    grade: 'College',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+  {
+    name: 'Ronni Kurniawan',
+    grade: 'Student',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+  {
+    name: 'Ridwan Moch',
+    grade: 'Student',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+  {
+    name: 'Eka Dian Pertiwi',
+    grade: 'Student',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+  {
+    name: 'Moch Iksan',
+    grade: 'Student',
+    message:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!'
+  }
+]
