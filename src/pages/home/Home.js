@@ -2,10 +2,23 @@ import "./Home.css"
 import React from "react"
 import { Link } from "react-router-dom"
 import HeaderSVG from "../../assets/img/header.svg"
-import { categories, popularCourse, qa } from "../../assets/data/Data"
+import {
+  categories,
+  popularCourse,
+  qa,
+  testimonials,
+} from "../../assets/data/Data"
 import SingleCategory from "../../components/singleCategory/SingleCategory"
 import SingleCourse from "../../components/singleCourse/SingleCourse"
 import SingleFaqs from "../../components/singleFaqs/SingleFaqs"
+import SingleTestimonial from "../../components/singleTestimonial/SingleTestimonial"
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
+import { Swiper, SwiperSlide } from "swiper/react"
+
+import { A11y, Navigation, Pagination, Scrollbar } from "swiper"
 
 const Home = () => {
   return (
@@ -63,18 +76,25 @@ const Home = () => {
         </article>
       </section>
       <section className="home-testimonial">
-        <div className="container">
-          <h1>Student Testimonials</h1>
-          <article className="testimonial">
-            <div className="testimonial-img">
-              <img src="" alt="" />
-            </div>
-            <h5 className="testimonial-name"></h5>
-            <p className="testimonial-grade"></p>
-            <div className="testimonial-message">
-              <p></p>
-            </div>
-          </article>
+        <div className="container ">
+          <h1 className="testimonial-title">Student Testimonials</h1>
+          <div className="testimonial-swiper">
+            <Swiper
+              spaceBetween={1}
+              slidesPerView={2}
+              navigation={true}
+              grabCursor={true}
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
+              modules={[Navigation, Pagination, Scrollbar, A11y]}
+            >
+              {testimonials.map((testi, idx) => (
+                <SwiperSlide className="testimonial" key={idx}>
+                  <SingleTestimonial testi={testi} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </section>
     </>

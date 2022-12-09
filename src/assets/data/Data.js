@@ -9,6 +9,13 @@ import {
 import popIMG1 from "../img/course1.jpg"
 import popIMG2 from "../img/course2.jpg"
 import popIMG3 from "../img/course3.jpg"
+import TestiIMG1 from "../img/tm1.jpg"
+import TestiIMG2 from "../img/tm2.jpg"
+import TestiIMG3 from "../img/tm3.jpg"
+import TestiIMG4 from "../img/tm4.jpg"
+import TestiIMG5 from "../img/tm5.jpg"
+import TestiIMG6 from "../img/tm6.jpg"
+
 export const categories = [
   {
     icon: <ImHtmlFive2 color="#e54d26" />,
@@ -102,36 +109,42 @@ export const qa = [
 
 export const testimonials = [
   {
+    pict: TestiIMG1,
     name: "Dhany Permana",
     grade: "Student",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
   },
   {
+    pict: TestiIMG2,
     name: "Ummi Nur Khasanah",
     grade: "College",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
   },
   {
+    pict: TestiIMG3,
     name: "Ronni Kurniawan",
     grade: "Student",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
   },
   {
+    pict: TestiIMG4,
     name: "Ridwan Moch",
     grade: "Student",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
   },
   {
+    pict: TestiIMG5,
     name: "Eka Dian Pertiwi",
     grade: "Student",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
   },
   {
+    pict: TestiIMG6,
     name: "Moch Iksan",
     grade: "Student",
     message:
