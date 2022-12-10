@@ -34,7 +34,9 @@
   padding: 1.5rem;
   border-radius: .5rem;
   position: relative;
-  width: 36.7vw;
+  width: 20rem;
+
+  /* width: 100%; */
 }
 
 .testimonial-message::after {

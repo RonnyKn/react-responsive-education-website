@@ -80,13 +80,31 @@ const Home = () => {
           <h1 className="testimonial-title">Student Testimonials</h1>
           <div className="testimonial-swiper">
             <Swiper
-              spaceBetween={1}
+              spaceBetween={50}
+              // style={{ margin: "0 auto" }}
               slidesPerView={2}
               navigation={true}
               grabCursor={true}
               pagination={{ clickable: true }}
               scrollbar={{ draggable: true }}
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              modules={[Navigation, Pagination, A11y]}
+              breakpoints={{
+                // when window width is >= 640px
+                300: {
+                  width: 480,
+                  slidesPerView: 1,
+                },
+                // when window width is >= 640px
+                640: {
+                  width: 640,
+                  slidesPerView: 2,
+                },
+                // when window width is >= 768px
+                978: {
+                  width: 978,
+                  slidesPerView: 3,
+                },
+              }}
             >
               {testimonials.map((testi, idx) => (
                 <SwiperSlide className="testimonial" key={idx}>
