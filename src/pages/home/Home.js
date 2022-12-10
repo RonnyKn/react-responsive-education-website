@@ -18,7 +18,7 @@ import "swiper/css/pagination"
 import "swiper/css/scrollbar"
 import { Swiper, SwiperSlide } from "swiper/react"
 
-import { A11y, Navigation, Pagination, Scrollbar } from "swiper"
+import { A11y, Navigation, Pagination } from "swiper"
 
 const Home = () => {
   return (
