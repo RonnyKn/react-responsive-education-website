@@ -1,0 +1,30 @@
+/*======================FOOTER SECTION===================*/
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 5rem auto;
+  gap: 5rem;
+}
+
+.footer-logo {
+  text-align: justify;
+}
+
+.footer-container li,
+.footer-container p {
+  font-size: .9rem;
+}
+
+.footer-container h4 {
+  margin-bottom: .5rem;
+}
+
+.footer-permalinks ul :hover {
+  color: var(--color-bg2);
+  transition: var(--transition);
+}
+
+.footer-privacy ul :hover {
+  color: var(--color-bg2);
+  transition: var(--transition);
+}
