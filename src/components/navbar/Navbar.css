@@ -29,3 +29,52 @@ nav {
 .nav-menu-btn {
   display: none;
 }
+
+
+
+/* ======================MEDIA QUERIES (TABLET)======================= */
+@media screen and (max-width:1024px) {
+  nav button {
+    /* display: inline-block; */
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    position: relative;
+  }
+
+  .nav-show {
+    display: flex;
+  }
+
+  .nav-hide {
+    display: none;
+  }
+
+  .nav-menu-links {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    gap: 0;
+    perspective: 400;
+  }
+
+  .nav-menu-btn {
+    display: flex;
+    background: none;
+    color: #fff;
+  }
+
+  .nav-menu-links li {
+    display: grid;
+    background: var(--color-bg);
+    height: 5.8rem;
+    width: 15rem;
+    place-items: center;
+    box-shadow: var(--boxshadow);
+
+  }
+
+}

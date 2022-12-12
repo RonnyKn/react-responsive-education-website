@@ -14,7 +14,17 @@ const Navbar = () => {
           <Link to="/">RONS EDU</Link>
         </div>
         <div className="nav-menu">
-          <ul className="nav-menu-links">
+          <button
+            className="nav-menu-btn"
+            onClick={() => setIsNavShowing(!isNavShowing)}
+          >
+            {isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}
+          </button>
+          <ul
+            className={`nav-menu-links ${
+              isNavShowing ? "nav-show" : "nav-hide"
+            }`}
+          >
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -28,12 +38,6 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-          <button
-            className="nav-menu-btn"
-            onClick={() => setIsNavShowing(!isNavShowing)}
-          >
-            {isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}
-          </button>
         </div>
       </div>
     </nav>
