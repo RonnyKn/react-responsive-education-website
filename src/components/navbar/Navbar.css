@@ -33,6 +33,7 @@ nav {
 
 
 /* ======================MEDIA QUERIES (TABLET)======================= */
+/* =========NAVBAR========== */
 @media screen and (max-width:1024px) {
   nav button {
     display: inline-block;
@@ -112,4 +113,5 @@ nav {
   .nav-hide {
     display: none;
   }
+
 }
