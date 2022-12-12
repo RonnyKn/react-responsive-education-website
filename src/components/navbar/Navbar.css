@@ -74,7 +74,11 @@ nav {
     width: 15rem;
     place-items: center;
     box-shadow: var(--boxshadow);
+  }
 
+  .nav-menu-links li:hover {
+    background: var(--color-bg2);
+    transition: var(--transition);
   }
 
 }
