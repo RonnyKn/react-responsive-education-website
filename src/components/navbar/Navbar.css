@@ -35,7 +35,7 @@ nav {
 /* ======================MEDIA QUERIES (TABLET)======================= */
 @media screen and (max-width:1024px) {
   nav button {
-    /* display: inline-block; */
+    display: inline-block;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -44,13 +44,7 @@ nav {
     position: relative;
   }
 
-  .nav-show {
-    display: flex;
-  }
 
-  .nav-hide {
-    display: none;
-  }
 
   .nav-menu-links {
     flex-direction: column;
@@ -67,6 +61,17 @@ nav {
     color: #fff;
   }
 
+
+
+  .nav-menu-links li:hover {
+    background: var(--color-bg2);
+    transition: var(--transition);
+  }
+
+  .nav-menu-links li a:hover {
+    color: #fff;
+  }
+
   .nav-menu-links li {
     display: grid;
     background: var(--color-bg);
@@ -74,11 +79,37 @@ nav {
     width: 15rem;
     place-items: center;
     box-shadow: var(--boxshadow);
+    transform: rotateX(-90deg);
+    opacity: 0;
+    transform-origin: top;
+    animation: animateNavbar 600ms ease forwards;
   }
 
-  .nav-menu-links li:hover {
-    background: var(--color-bg2);
-    transition: var(--transition);
+  .nav-menu-links li:nth-child(2) {
+    animation-delay: 200ms;
   }
 
+  .nav-menu-links li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav-menu-links li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  @keyframes animateNavbar {
+    100% {
+      transform: rotateX(0deg);
+      opacity: 1;
+      transition: var(--transition);
+    }
+  }
+
+  .nav-show {
+    display: flex;
+  }
+
+  .nav-hide {
+    display: none;
+  }
 }
