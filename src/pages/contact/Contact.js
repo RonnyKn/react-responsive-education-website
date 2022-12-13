@@ -1,5 +1,5 @@
 import "./Contact.css"
-import React from "react"
+import React, { useRef } from "react"
 import ContactSVG from "../../assets/img/contact.svg"
 import {
   FaInstagram,
@@ -10,8 +10,34 @@ import {
   FaGlobeAsia,
 } from "react-icons/fa"
 import { FiMail } from "react-icons/fi"
+import emailjs from "@emailjs/browser"
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+    window.alert(
+      "Thankyou, your message has been sent successfully. \nHave a great day ❤."
+    )
+
+    emailjs
+      .sendForm(
+        "service_2y24t5g",
+        "template_2gpy8ly",
+        form.current,
+        "8sH3i4bVXXbpdpkfh"
+      )
+      .then(
+        (result) => {
+          e.target.reset()
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+  }
+
   return (
     <section className="contact">
       <div className="container contact-container">
@@ -83,7 +109,12 @@ const Contact = () => {
             </li>
           </ul>
         </aside>
-        <form action="submit" className="contact-right">
+        <form
+          action=""
+          className="contact-right"
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <input
             type="text"
             name="user_name"
