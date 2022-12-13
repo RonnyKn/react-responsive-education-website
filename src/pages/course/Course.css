@@ -1,0 +1,15 @@
+.course-container {
+  background: var(--color-bg);
+  width: 100%;
+}
+
+.course-title {
+  text-align: center;
+  margin: 3rem 0 4rem;
+}
+
+.course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

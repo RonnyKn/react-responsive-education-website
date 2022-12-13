@@ -3,8 +3,8 @@
   padding: .5rem;
   border: 1px solid var(--color-bg2);
   border-radius: 1rem;
-  margin: .5rem 0;
   background: var(--color-bg1);
+  padding-bottom: .7rem;
 }
 
 .single-course:hover {
@@ -34,6 +34,7 @@
 
 .single-course p {
   font-size: .8rem;
-  margin-bottom: 1rem;
+  margin: 0 .5rem 1rem;
+
   text-align: justify;
 }

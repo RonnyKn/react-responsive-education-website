@@ -41,7 +41,7 @@ import Tm8 from "../img/tm8.jpg"
 import Tm9 from "../img/tm9.jpg"
 import Tm10 from "../img/tm10.jpg"
 
-export const course = [
+export const allcourse = [
   {
     popIMG: popIMG1,
     name: "Responsive Social Media Web Design",
