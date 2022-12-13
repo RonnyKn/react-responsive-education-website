@@ -15,6 +15,16 @@ import TestiIMG3 from "../img/tm3.jpg"
 import TestiIMG4 from "../img/tm4.jpg"
 import TestiIMG5 from "../img/tm5.jpg"
 import TestiIMG6 from "../img/tm6.jpg"
+import Tm1 from "../img/tm1.jpg"
+import Tm2 from "../img/tm2.jpg"
+import Tm3 from "../img/tm3.jpg"
+import Tm4 from "../img/tm4.jpg"
+import Tm5 from "../img/tm5.jpg"
+import Tm6 from "../img/tm6.jpg"
+import Tm7 from "../img/tm7.jpg"
+import Tm8 from "../img/tm8.jpg"
+import Tm9 from "../img/tm9.jpg"
+import Tm10 from "../img/tm10.jpg"
 
 export const categories = [
   {
@@ -149,5 +159,58 @@ export const testimonials = [
     grade: "Student",
     message:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem quam magnam obcaecati rerum eos maiores, nostrum assumenda impedit libero recusandae id omnis amet alias!",
+  },
+]
+
+export const team = [
+  {
+    tmImg: Tm1,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm2,
+    name: "Mr Ahmad Sutej",
+    major: "English Teacher",
+  },
+  {
+    tmImg: Tm3,
+    name: "Mr Kurniawan Sutej",
+    major: "Programing",
+  },
+  {
+    tmImg: Tm4,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm5,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm6,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm7,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm8,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm9,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
+  },
+  {
+    tmImg: Tm10,
+    name: "Mr Bambang Sutej",
+    major: "Web Design",
   },
 ]
