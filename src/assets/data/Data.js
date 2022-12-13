@@ -9,6 +9,21 @@ import {
 import popIMG1 from "../img/course1.jpg"
 import popIMG2 from "../img/course2.jpg"
 import popIMG3 from "../img/course3.jpg"
+import course4 from "../img/course4.jpg"
+import course5 from "../img/course5.jpg"
+import course6 from "../img/course6.jpg"
+import course7 from "../img/course7.jpg"
+import course8 from "../img/course8.jpg"
+import course9 from "../img/course9.jpg"
+import course10 from "../img/course10.jpg"
+import course11 from "../img/course11.jpg"
+import course12 from "../img/course12.jpg"
+import course13 from "../img/course13.jpg"
+import course14 from "../img/course14.jpg"
+import course15 from "../img/course15.jpg"
+import course16 from "../img/course16.jpg"
+import course17 from "../img/course17.jpg"
+import course18 from "../img/course18.jpg"
 import TestiIMG1 from "../img/tm1.jpg"
 import TestiIMG2 from "../img/tm2.jpg"
 import TestiIMG3 from "../img/tm3.jpg"
@@ -25,6 +40,117 @@ import Tm7 from "../img/tm7.jpg"
 import Tm8 from "../img/tm8.jpg"
 import Tm9 from "../img/tm9.jpg"
 import Tm10 from "../img/tm10.jpg"
+
+export const course = [
+  {
+    popIMG: popIMG1,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: popIMG2,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: popIMG3,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course4,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course5,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course6,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course7,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course8,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course9,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course10,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course11,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course12,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course13,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course14,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course15,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course16,
+    name: "Responsive Social Media Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course17,
+    name: "Responsive Smart Home Web Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+  {
+    popIMG: course18,
+    name: "Responsive Admin Dashbpard UI Design",
+    detail:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos architecto facilis.",
+  },
+]
 
 export const categories = [
   {
