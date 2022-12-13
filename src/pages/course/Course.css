@@ -5,11 +5,38 @@
 
 .course-title {
   text-align: center;
-  margin: 3rem 0 4rem;
+  margin: 2rem 0 2.5rem;
 }
 
 .course {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+
+/* ================MEDIA QUERIES============== */
+@media screen and (max-width:990px) {
+  .container {
+    width: var(--container-width-md);
+    height: 100%;
+  }
+
+  .course-title {
+    font-size: 1.7rem;
+  }
+
+  .course {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container {
+    width: var(--container-width-sm);
+    height: 100%;
+  }
+
+  .course {
+    grid-template-columns: 1fr;
+  }
 }

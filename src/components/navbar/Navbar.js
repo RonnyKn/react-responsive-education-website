@@ -32,10 +32,10 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li onClick={scrollTop}>
-              <Link to="/course">Course</Link>
+              <Link to="/about">About</Link>
             </li>
             <li onClick={scrollTop}>
-              <Link to="/about">About</Link>
+              <Link to="/course">Course</Link>
             </li>
             <li onClick={scrollTop}>
               <Link to="/contact">Contact</Link>
