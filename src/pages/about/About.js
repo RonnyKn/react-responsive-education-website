@@ -5,6 +5,7 @@ import { IoBookOutline } from "react-icons/io5"
 import { MdOutlinePeopleAlt } from "react-icons/md"
 import { FaAward } from "react-icons/fa"
 import { team } from "../../assets/data/Data"
+import SingleTeam from "../../components/singleTeam/SingleTeam"
 
 const About = () => {
   return (
@@ -48,10 +49,13 @@ const About = () => {
           </div>
         </section>
       </header>
-      <section className="container about-team">
-        {team.map((tm, idx) => (
-          <SingleTeam tm={tm} key={idx} />
-        ))}
+      <section className="container">
+        <h1>Meet Our Team</h1>
+        <div className="about-team">
+          {team.map((tm, idx) => (
+            <SingleTeam tm={tm} key={idx} />
+          ))}
+        </div>
       </section>
     </>
   )
