@@ -1,3 +1,7 @@
+.contact {
+  background: var(--color-bg);
+}
+
 .contact-container {
   background: var(--color-bg1);
   padding: 4rem;
@@ -9,6 +13,7 @@
   border-radius: 1rem;
 }
 
+/* ===========Left========= */
 .contact-aside {
   background: var(--color-primary);
   padding: 3rem;
@@ -54,4 +59,24 @@
 
 .contact-socials a:hover {
   background: transparent;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+.contact-right button {
+  width: fit-content;
+  margin-top: .5rem;
 }
