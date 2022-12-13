@@ -4,6 +4,7 @@ import aboutIMG from "../../assets/img/about achievements.svg"
 import { IoBookOutline } from "react-icons/io5"
 import { MdOutlinePeopleAlt } from "react-icons/md"
 import { FaAward } from "react-icons/fa"
+import { team } from "../../assets/data/Data"
 
 const About = () => {
   return (
@@ -47,7 +48,11 @@ const About = () => {
           </div>
         </section>
       </header>
-      <section className="container about-team"></section>
+      <section className="container about-team">
+        {team.map((tm, idx) => (
+          <SingleTeam tm={tm} key={idx} />
+        ))}
+      </section>
     </>
   )
 }
