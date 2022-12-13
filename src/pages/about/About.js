@@ -10,7 +10,7 @@ import SingleTeam from "../../components/singleTeam/SingleTeam"
 const About = () => {
   return (
     <>
-      <header>
+      <header className="about">
         <section className="container about-container">
           <div className="about-left">
             <img src={aboutIMG} alt="aboutIMG" />
