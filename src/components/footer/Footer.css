@@ -28,3 +28,27 @@
   color: var(--color-bg2);
   transition: var(--transition);
 }
+
+/* ==============MEDIA QUERIES============ */
+@media screen and (max-width:990px) {
+  .container {
+    max-width: var(--container-width-md);
+  }
+
+  .footer-container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer-container {
+    width: 5rem;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+}

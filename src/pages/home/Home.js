@@ -77,7 +77,7 @@ const Home = () => {
       </section>
       <section className="home-testimonial">
         <div className="container ">
-          <h1 className="testimonial-title">Student Testimonials</h1>
+          <h1 className="testimonial-title">Testimonials</h1>
           <div className="testimonial-swiper">
             <Swiper
               spaceBetween={50}
