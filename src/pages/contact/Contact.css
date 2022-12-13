@@ -4,7 +4,7 @@
 
 .contact-container {
   background: var(--color-bg1);
-  padding: 4rem;
+  padding: 2rem;
   display: grid;
   grid-template-columns: 40% 60%;
   gap: 4rem;
@@ -27,6 +27,10 @@
   width: 12rem;
 }
 
+.aside-img img {
+  width: 100%;
+}
+
 .contact-aside h2 {
   text-align: left;
   margin-bottom: 4rem;
@@ -35,6 +39,10 @@
 .contact-aside p {
   font-size: .9rem;
   margin-bottom: 2rem;
+}
+
+.contact-details {
+  max-width: 100%;
 }
 
 .contact-details li {
@@ -79,4 +87,53 @@ textarea {
 .contact-right button {
   width: fit-content;
   margin-top: .5rem;
+}
+
+/* =================MEDIA QUERIES============ */
+@media screen and (max-width:990px) {
+  .contact {
+    padding-bottom: 1rem;
+  }
+
+  .contact-container {
+    width: var(--container-width-md);
+    gap: 1rem;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  .contact-aside {
+    width: auto;
+    padding: 2rem;
+    bottom: 0;
+  }
+
+  .contact-right {
+    align-self: center;
+    margin-right: 1.5rem;
+
+  }
+}
+
+/* =================MEDIA QUERIES============ */
+@media screen and (max-width:600px) {
+  .contact {
+    padding-bottom: .1rem;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .contact-aside {
+    margin: .9rem;
+  }
+
+  .contact-right {
+    margin: 0 1.5rem 3rem;
+  }
+
 }

@@ -35,7 +35,7 @@ const Contact = () => {
               <em>
                 <FiMail />
               </em>
-              <h5>ronnykurniawn@gmail.comm</h5>
+              <h5>rnnkn@gmail.com</h5>
             </li>
             <li>
               <em>
