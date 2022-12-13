@@ -60,3 +60,17 @@
 .succes {
   background: var(--color-succes);
 }
+
+.about-team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* .about-team-title h1 {
+  text-align: center;
+} */
+.team-title {
+  text-align: center;
+  margin: 2rem 0 3rem;
+}

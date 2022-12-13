@@ -1,0 +1,31 @@
+.single-team {
+  text-align: center;
+  padding: 1.25rem;
+  background: var(--color-bg2);
+  border-radius: 1rem;
+}
+
+
+
+.content-img img {
+  border-radius: 1rem;
+}
+
+.single-team h5 {
+  margin: 1rem 0 0;
+}
+
+.single-team:hover {
+  background: transparent;
+  transition: var(--transition);
+}
+
+.single-team:hover img {
+  transform: scale(1.1);
+  transition: var(--transition);
+}
+
+.content-img {
+  overflow: hidden;
+  border-radius: 1rem;
+}

@@ -50,12 +50,12 @@ const About = () => {
         </section>
       </header>
       <section className="container">
-        <h1>Meet Our Team</h1>
-        <div className="about-team">
+        <h1 className="team-title">Meet Our Team</h1>
+        <article className="about-team">
           {team.map((tm, idx) => (
             <SingleTeam tm={tm} key={idx} />
           ))}
-        </div>
+        </article>
       </section>
     </>
   )
