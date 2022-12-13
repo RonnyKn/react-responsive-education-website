@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <section className="contact">
       <div className="container contact-container">
-        <aside className="">
+        <aside className="contact-aside">
           <div className="aside-img">
             <img src={ContactSVG} alt="contactSVG" />
           </div>
