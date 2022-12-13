@@ -6,6 +6,9 @@ import { MdOutlineClose } from "react-icons/md"
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false)
+  const scrollTop = () => {
+    window.scroll(0, 0)
+  }
 
   return (
     <nav>
@@ -25,16 +28,16 @@ const Navbar = () => {
               isNavShowing ? "nav-show" : "nav-hide"
             }`}
           >
-            <li>
+            <li onClick={scrollTop}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li onClick={scrollTop}>
               <Link to="/course">Course</Link>
             </li>
-            <li>
+            <li onClick={scrollTop}>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li onClick={scrollTop}>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
