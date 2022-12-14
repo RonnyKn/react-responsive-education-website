@@ -15,7 +15,10 @@ const Navbar = () => {
     <nav>
       <div className="container nav-container">
         <div className="nav-logo">
-          <Link to="/">RONS EDU</Link>
+          <Link to="/">
+            <span className="title1"> Rons </span>
+            <strong className="title2"> EDU</strong>
+          </Link>
         </div>
         <div className="nav-menu">
           <button
