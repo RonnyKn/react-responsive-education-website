@@ -32,7 +32,10 @@ const Home = () => {
               consectetur illo, iure repellendus quia laborum quo ullam
               necessitatibus atque accusamus.
             </p>
-            <button className="btn btn-primary">
+            <button
+              className="btn btn-primary"
+              onClick={() => window.scroll(0, 0)}
+            >
               <Link to="/course">Get Started!</Link>
             </button>
           </div>
@@ -49,7 +52,12 @@ const Home = () => {
             adipisci! Tempora doloremque nihil dicta aspernatur! Fugiat veniam
             libero maxime et.
           </p>
-          <button className="btn btn-primary">Learn More</button>
+          <button
+            className="btn btn-primary"
+            onClick={() => window.scroll(0, 0)}
+          >
+            <Link to="/course">Learn More</Link>
+          </button>
         </div>
         <article className="home-category-right">
           {categories.map((category, idx) => (
