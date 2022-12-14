@@ -5,8 +5,8 @@ const SingleFaqs = ({ qna }) => {
   const [isExpand, setIsExpand] = useState(true)
   return (
     <>
-      <div className="single-faqs">
-        <button onClick={() => setIsExpand(!isExpand)}>
+      <div className="single-faqs" onClick={() => setIsExpand(!isExpand)}>
+        <button>
           {isExpand ? <MdOutlineExpandMore /> : <MdOutlineExpandLess />}
         </button>
         <div className="single-faqs-content">
