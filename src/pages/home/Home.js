@@ -23,7 +23,7 @@ import { A11y, Navigation, Pagination } from "swiper"
 const Home = () => {
   return (
     <>
-      <header>
+      <header className="home">
         <div className="container home-container">
           <div className="home-header-left">
             <h1>Grow your skills to advance your carrer path</h1>
@@ -81,7 +81,6 @@ const Home = () => {
           <div className="testimonial-swiper">
             <Swiper
               spaceBetween={50}
-              // style={{ margin: "0 auto" }}
               slidesPerView={2}
               navigation={true}
               grabCursor={true}

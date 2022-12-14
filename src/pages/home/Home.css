@@ -145,8 +145,8 @@ header {
 }
 
 @media screen and (max-width:600px) {
-  header {
-    height: 100vh;
+  home {
+    height: 100%;
   }
 
   .container {
@@ -184,7 +184,7 @@ header {
 
   .home-popcourse-content {
     grid-template-columns: 1fr;
-    gap: .1rem;
+    gap: 1rem;
   }
 
   .faqs {
@@ -192,24 +192,3 @@ header {
   }
 
 }
-
-/* phone */
-/* @media screen and (min-width: 300px) {
-  .testimonial-swiper {
-    width: 480px;
-  }
-} */
-
-/* tablet */
-/* @media screen and (min-width: 640px) {
-  .testimonial-swiper {
-    width: 640px;
-  }
-} */
-
-/* dekstop */
-/* @media screen and (min-width: 978px) {
-  .testimonial-swiper {
-    width: 978px;
-  }
-} */
