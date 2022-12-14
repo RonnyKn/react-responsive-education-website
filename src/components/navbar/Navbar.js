@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false)
   const scrollTop = () => {
     window.scroll(0, 0)
+    setIsNavShowing(false)
   }
 
   return (
